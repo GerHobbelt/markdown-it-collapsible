@@ -1,19 +1,24 @@
 # markdown-it-collapsible
+
 ![npm](https://img.shields.io/npm/v/markdown-it-collapsible) ![Tests](https://github.com/Bioruebe/markdown-it-collapsible/workflows/Tests/badge.svg) ![markdown-it](https://img.shields.io/npm/dependency-version/markdown-it-collapsible/peer/markdown-it)
 
 > A markdown-it plugin, which adds collapsibles via the HTML `<details>` and `<summary>` elements
+
 
 ## Preview
 
 ![preview](docs/preview.png)
 
+
 ## Usage
+
 
 ### Install
 
 ```bash
 npm install markdown-it-collapsible
 ```
+
 
 ### Enable
 
@@ -22,6 +27,8 @@ const markdown_it = require("markdown-it");
 const markdown_it_collapsible = require("markdown-it-collapsible");
 const md = markdown_it().use(markdown_it_collapsible, options);
 ```
+
+
 ### Syntax
 
 ```md
@@ -88,3 +95,4 @@ details > *:not(summary) {
 	padding-left: 1.25em;
 }
 ```
+

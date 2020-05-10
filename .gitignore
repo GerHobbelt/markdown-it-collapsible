@@ -1,3 +1,4 @@
-node_modules/*
-/devdata
-/docs/preview.stg
+node_modules/
+coverage/
+*.log
+/.nyc_output

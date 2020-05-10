@@ -1,5 +1,3 @@
-'use strict';
-
 function renderSummary(tokens, idx, options, env, slf) {
   return '<summary><span class="details-marker">&nbsp;</span>' + slf.renderInline(tokens[idx].children, options, env) + '</summary>';
 }
@@ -113,9 +111,11 @@ function plugin(state, startLine, endLine, silent) {
 }
 
 /* eslint-disable camelcase */
-module.exports = function collapsiblePlugin(md) {
+var markdownItCollapsible = function collapsiblePlugin(md) {
   md.block.ruler.before('fence', 'collapsible', plugin, {
     alt: [ 'paragraph', 'reference', 'blockquote', 'list' ]
   });
   md.renderer.rules.collapsible_summary = renderSummary;
 };
+
+export default markdownItCollapsible;

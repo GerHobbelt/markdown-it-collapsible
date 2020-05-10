@@ -1,6 +1,5 @@
 /.github
-/devdata
-.editorconfig
-.eslintignore
-.eslintrc
-/docs/preview.stg
+support/
+test/
+Makefile
+.*
