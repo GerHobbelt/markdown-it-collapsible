@@ -1,6 +1,6 @@
 {
   "name": "@gerhobbelt/markdown-it-collapsible",
-  "version": "1.0.0-2",
+  "version": "1.0.0-3",
   "description": "A markdown-it plugin, which adds collapsibles via the HTML <details> and <summary> elements",
   "keywords": [
     "markdown",
