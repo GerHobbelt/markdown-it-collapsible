@@ -1,4 +1,3 @@
-'use strict';
 
 function renderSummary(tokens, idx, options, env, slf) {
   return '<summary><span class="details-marker">&nbsp;</span>' + slf.renderInline(tokens[idx].children, options, env) + '</summary>';

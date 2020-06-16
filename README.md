@@ -1,6 +1,8 @@
 # markdown-it-collapsible
 
-![npm](https://img.shields.io/npm/v/markdown-it-collapsible) ![Tests](https://github.com/Bioruebe/markdown-it-collapsible/workflows/Tests/badge.svg) ![markdown-it](https://img.shields.io/npm/dependency-version/markdown-it-collapsible/peer/markdown-it)
+[![Build Status](https://img.shields.io/travis/GerHobbelt/markdown-it-collapsible/master.svg?style=flat)](https://travis-ci.org/GerHobbelt/markdown-it-collapsible)
+[![NPM version](https://img.shields.io/npm/v/@gerhobbelt/markdown-it-collapsible.svg?style=flat)](https://www.npmjs.org/package/@gerhobbelt/markdown-it-collapsible)
+[![Coverage Status](https://img.shields.io/coveralls/GerHobbelt/markdown-it-collapsible/master.svg?style=flat)](https://coveralls.io/r/GerHobbelt/markdown-it-collapsible?branch=master)
 
 > A markdown-it plugin, which adds collapsibles via the HTML `<details>` and `<summary>` elements
 

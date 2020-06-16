@@ -1,6 +1,4 @@
-'use strict';
-
-/*eslint-env mocha*/
+/* eslint-env mocha, es6 */
 /* eslint-disable camelcase */
 
 const path = require('path');
