@@ -1,3 +1,7 @@
+
+# Created by https://www.gitignore.io/api/node,linux,visualstudiocode
+# Then hand-patched to suit us.
+
 # OS X crap
 .DS_Store
 
@@ -5,6 +9,19 @@
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+### Linux ###
+*~
+
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 # Private files
 _private
@@ -119,6 +136,11 @@ dist
 # TernJS port file
 .tern-port
 
-# misc editor cruft
+### VisualStudioCode ###
+#.vscode/*
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json
 .vscode
 

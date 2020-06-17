@@ -6,7 +6,7 @@ env:
 extends: eslint:recommended
 
 parserOptions: 
-  ecmaVersion: 2018
+  ecmaVersion: 2020
   sourceType: module
   
 rules:
@@ -31,7 +31,7 @@ rules:
   func-style:             [ 1, declaration, { "allowArrowFunctions": true } ]
   # Postponed
   #global-require:         2
-  guard-for-in:           2
+  guard-for-in:           1
   handle-callback-err:    2
 
   indent:                 [ 1, 2, { VariableDeclarator: { var: 2, let: 2, const: 3 }, SwitchCase: 0, MemberExpression: "off", ignoreComments: true } ]
